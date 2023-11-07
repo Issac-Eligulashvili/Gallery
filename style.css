@@ -2,3 +2,8 @@
 background-image: url('https://picsum.photos/1300/500');
 background-position: center center;
 }
+
+.navbar {
+    background-color: #1b2a41;
+    color: #f5f1ed;
+}
