@@ -6,15 +6,41 @@ background-position: center center;
 html,body {
     height: 100%;
 }
-
+/* Navvbar Styling */
 .navbar {
     background-color: #0c1821;
     color: #f5f1ed;
-    --bs-navbar-color: #f5f5f5;
-    --bs-navbar-active-color: #f5f5f5;
-    --bs-navbar-brand-color: #f5f5f5;
+    --bs-navbar-color: #f5f1ed;
+    --bs-navbar-active-color: #f5f1ed;
+    --bs-navbar-brand-color: #f5f1ed;
+
 }
 
+.nav-link:hover {
+  color: #cacaca;
+}
+
+.nav-link {
+  color: #f5f1ed;
+}
+
+.navbar-brand:hover {
+  color: #cacaca;
+}
+
+.dropdown-menu {
+  background-color: #000000;
+}
+
+.dropdown-item {
+  color: #f5f1ed;
+}
+
+.dropdown-item:hover {
+  background-color: #0c1821;
+  color: #f5f1ed;
+}
+/* End */
 body {
     background: #1b2a41;
 }
@@ -29,6 +55,8 @@ body {
   
   --blob-color-1: rgb(var(--blue-rgb));
   --blob-color-2: dodgerblue;
+  --bs-dark-bg-subtle: #0c1821 !important;
+
 }
 
 * {
@@ -173,4 +201,8 @@ body {
 .screen-container {
   position: relative;
   height: 100%;
+}
+
+.bg {
+  background-color: #0c1821;
 }
